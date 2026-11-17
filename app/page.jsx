@@ -477,7 +477,14 @@ function Footer() {
   return (
     <>
       <section className="contact-section" id="contact">
-        <div className="contact-spacer" aria-hidden="true" />
+        <div className="contact-spacer">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6209.5811642408535!2d-94.665201!3d38.905904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95c299d7382efe50!2sGenesis%20Pain%20Clinic!5e0!3m2!1sen!2s!4v1586535838978!5m2!1sen!2s"
+            title="Genesis Pain Clinic location map"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
         <div className="contact-cta">
           <h2>Are you interested</h2>
           <h3>In seeking treatment at Genesis Pain Clinic?</h3>
