@@ -684,18 +684,18 @@ export default function HomePage() {
               width={200}
               height={300}
             />
-            <h2>Dr. Raza Jafri</h2>
-            <h3>Board Certified in Anesthesiology,<br />Sub-specialty in Pain Medicine</h3>
+            <h3>Dr. Raza Jafri</h3>
+            <h4>Board Certified in Anesthesiology, Sub-specialty in Pain Medicine</h4>
             <p>
               Dr. Jafri has extensive knowledge and experience in interventional
               pain management and is skilled in the use of ultrasound for both
-              diagnostic and needle-guided procedures. Dr. Jafri&apos;s interest
+              diagnostic and needle-guided procedures. Dr. Jafri’s interest
               and practice in regenerative medicine is a reflection of his belief
               in using a comprehensive pain management approach that utilizes
               cutting edge technology and procedures to help his patients live a
               pain-free and fulfilling life.
             </p>
-            <a className="more-link" href="https://www.genesispain.com/about-us/">Find out more <span aria-hidden="true">→</span></a>
+            <a className="more-link" href="https://www.genesispain.com/about-us/">Find out more</a>
           </div>
         </section>
 
