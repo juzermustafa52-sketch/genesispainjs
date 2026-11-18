@@ -653,6 +653,16 @@ export default function HomePage() {
             </p>
           </div>
           <TreatmentsCarousel />
+          <div className="treatments-video">
+            <iframe
+              src="https://www.youtube.com/embed/FI7etzG2h6M?feature=oembed"
+              title="Pedro from Balance Ketamine"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
         </section>
 
         <section className="insurance-section">

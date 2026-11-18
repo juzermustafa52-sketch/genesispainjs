@@ -790,6 +790,19 @@ summary:focus-visible {
   margin: 0 auto;
 }
 
+.treatments-video {
+  width: min(1200px, 90vw);
+  margin: 32px auto 0;
+}
+
+.treatments-video iframe {
+  display: block;
+  width: 57.8%;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  border: 0;
+}
+
 .treatment-cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2211,6 +2224,14 @@ summary:focus-visible {
     margin-top: 18px;
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .treatments-video {
+    width: 100%;
+  }
+
+  .treatments-video iframe {
+    width: 100%;
   }
 
   .insurance-section {
